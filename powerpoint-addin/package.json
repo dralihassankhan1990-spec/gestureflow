@@ -1,0 +1,20 @@
+{
+  "author": "",
+  "dependencies": {
+    "express": "^4.22.1",
+    "ws": "^8.14.2"
+  },
+  "description": "PowerPoint add-in for GestureFlow",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "server.js",
+  "name": "gestureflow-powerpoint",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "version": "1.0.0"
+}
